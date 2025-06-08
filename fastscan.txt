@@ -1,0 +1,15 @@
+# Nmap 7.95 scan initiated Sat Jun  7 16:51:21 2025 as: /usr/lib/nmap/nmap -T4 -n -sC -sV -Pn -p- -oN fastscan.txt 10.10.44.71
+Nmap scan report for 10.10.44.71
+Host is up (0.22s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 b9:78:83:07:a8:f4:94:08:ca:1d:91:67:02:22:02:79 (RSA)
+|   256 15:17:23:e9:ac:8a:57:8f:be:61:77:ab:1c:94:98:39 (ECDSA)
+|_  256 c9:11:b9:4c:d6:8d:c3:c0:f0:2b:fa:92:bb:4d:b8:cc (ED25519)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jun  7 17:02:11 2025 -- 1 IP address (1 host up) scanned in 649.47 seconds
